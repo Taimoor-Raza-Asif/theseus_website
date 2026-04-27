@@ -56,7 +56,7 @@ export default function Navbar({ dark, toggleTheme }) {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
             <img
-              src={dark ? '/dark_mode_logo.png' : '/light_mode_logo.png'}
+              src={'/dark_mode_logo.png'}
               alt="Theseus Group"
               className={`object-contain transition-all duration-300 ${shrunk ? 'h-7' : 'h-8'}`}
             />

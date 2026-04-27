@@ -60,29 +60,23 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               {/* AWS */}
               <div className="flex items-center gap-3">
-                <img
-                  src="/aws_logo.png"
-                  alt="AWS Activate"
-                  className="h-7 w-auto object-contain"
-                  style={{ filter: dark ? 'brightness(1.1)' : 'none' }}
-                />
+                <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                  <img src="/aws_logo.png" alt="AWS Activate" className="max-h-full max-w-full object-contain" />
+                </div>
                 <span className="text-sm font-medium text-zinc-600 dark:text-zinc-400">AWS Activate</span>
               </div>
               {/* Microsoft for Startups */}
               <div className="flex items-center gap-3">
-                <div className="h-7 w-7 flex-shrink-0 flex items-center justify-center rounded bg-[#00a4ef]">
-                  <span className="text-white font-black text-xs">M</span>
+                <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                  <img src="/Azure_logo.jpg" alt="Azure" className="max-h-full max-w-full object-contain rounded" />
                 </div>
                 <span className="text-sm font-medium text-zinc-600 dark:text-zinc-400">Microsoft for Startups</span>
               </div>
               {/* NVIDIA */}
               <div className="flex items-center gap-3">
-                <img
-                  src="/nvidia_logo.png"
-                  alt="NVIDIA Inception"
-                  className="h-7 w-auto object-contain"
-                  style={{ filter: dark ? 'brightness(1.2) invert(0)' : 'none' }}
-                />
+                <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                  <img src="/nvidia_logo.png" alt="NVIDIA Inception" className="max-h-full max-w-full object-contain" />
+                </div>
                 <span className="text-sm font-medium text-zinc-600 dark:text-zinc-400">NVIDIA Inception</span>
               </div>
             </div>
@@ -93,7 +87,7 @@ export default function Footer() {
             {/* TG Logo */}
             <div className="mb-4">
               <img
-                src={dark ? '/dark_mode_logo.png' : '/light_mode_logo.png'}
+                src={dark ? '/dark_mode_logo.png' : '/dark_mode_logo.png'}
                 alt="Theseus Group"
                 className="h-10 w-auto object-contain"
               />

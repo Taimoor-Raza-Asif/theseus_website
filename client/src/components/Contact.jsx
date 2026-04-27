@@ -90,25 +90,28 @@ export default function Contact() {
 
             {/* Supported By */}
             <div className="glass-card rounded-2xl p-6">
-              <p className="text-xs font-semibold tracking-widest uppercase text-zinc-400 mb-4">Supported By</p>
-              <div className="flex flex-wrap items-center gap-4">
-                <div className="flex items-center gap-1.5">
-                  <div className="w-6 h-6 bg-[#FF9900] rounded flex items-center justify-center">
-                    <span className="text-white font-black text-xs">A</span>
+              <p className="text-xs font-semibold tracking-widest uppercase text-zinc-400 mb-5">Supported By</p>
+              <div className="flex flex-col gap-4">
+                {/* AWS Activate */}
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                    <img src="/aws_logo.png" alt="AWS" className="max-h-full max-w-full object-contain" />
                   </div>
-                  <span className="text-xs font-bold text-zinc-700 dark:text-zinc-300">AWS Activate</span>
+                  <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-300">AWS Activate</span>
                 </div>
-                <div className="flex items-center gap-1.5">
-                  <div className="w-6 h-6 bg-[#00a4ef] rounded flex items-center justify-center">
-                    <span className="text-white font-black text-xs">M</span>
+                {/* Microsoft for Startups */}
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                    <img src="/Azure_logo.jpg" alt="Azure" className="max-h-full max-w-full object-contain rounded" />
                   </div>
-                  <span className="text-xs font-bold text-zinc-700 dark:text-zinc-300">Microsoft for Startups</span>
+                  <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-300">Microsoft for Startups</span>
                 </div>
-                <div className="flex items-center gap-1.5">
-                  <div className="w-6 h-6 bg-[#76b900] rounded flex items-center justify-center">
-                    <span className="text-white font-black text-[9px]">N</span>
+                {/* NVIDIA Inception */}
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                    <img src="/nvidia_logo.png" alt="NVIDIA" className="max-h-full max-w-full object-contain" />
                   </div>
-                  <span className="text-xs font-bold text-zinc-700 dark:text-zinc-300">NVIDIA Inception</span>
+                  <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-300">NVIDIA Inception</span>
                 </div>
               </div>
             </div>
